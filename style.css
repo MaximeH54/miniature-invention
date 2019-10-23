@@ -1,4 +1,65 @@
-div
-{
-  border-radius: 20px / 10px;
+body {
+    margin: 0px;
+    background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 4px black;
+  color: #A9A9A9;
+  font-size: 40px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+h2, ul {
+  margin: 0;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+.picture {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.group h2 {
+  background-color: brown;
+  border-radius: 10px;
+  padding: 6px 20px;
+  color: blanchedalmond;
+  margin-bottom: 20px;
+}
+
+.group ul {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: honeydew;
+  font-size: 20px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
